@@ -11,8 +11,9 @@ public class IfElseExample {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Te rog introdu username: ");
+		String inputUsername = scan.next();
 		inputUsername = inputUsername.substring(0,1).toUpperCase() + inputUsername.substring(1).toLowerCase();
-        String inputUsername = scan.next();
+        
         System.out.println("Te rog introdu password: ");
         int inputPassword = scan.nextInt();
         
@@ -23,7 +24,7 @@ public class IfElseExample {
         //bolean - true sau false
         
         if(username.equals(inputUsername) && password == inputPassword ) {
-        	System.out.println("login succesful");
+        	System.out.println("login successful");
 	    }else {
 		    System.out.println("username or password is wrong");
 	}
