@@ -26,6 +26,7 @@ public class WhileExample3 {
 		oreLucrate = scan.nextInt();
 		scan.close();
 		
+		
 	}
 	
 	System.out.println("Salariul tau este: " + oreLucrate*ratePerHour);
